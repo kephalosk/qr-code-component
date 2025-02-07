@@ -10,7 +10,9 @@
 }
 
 body {
+  margin: 0;
   background-color: #D5E1EF;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,6 +22,7 @@ body {
 .card {
   box-shadow: 0 0 30px -40px #1F314F;
   border-radius: 1.25rem;
+  background-color: #FFFFFF;
   padding: 1rem 1rem 2.5rem 1rem;
   display: flex;
   flex-direction: column;
@@ -35,6 +38,8 @@ body {
 
 .cardHeaderText {
   margin: 0;
+  max-width: 18rem;
+  text-align: center;
   color: #68778D;
   font-family: Outfit, sans-serif;
   font-weight: 400;
@@ -45,6 +50,8 @@ body {
 
 .cardHeaderTitle {
   margin: 0;
+  max-width: 18rem;
+  text-align: center;
   color: #1F314F;
   font-family: Outfit, sans-serif;
   font-weight: 700;
@@ -55,8 +62,8 @@ body {
 
 .cardImage {
   border-radius: 1.25rem;
-  height: 288px;
-  width: auto;
+  height: auto;
+  max-width: 18rem;
 }
 
 .content {
