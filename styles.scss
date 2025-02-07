@@ -38,3 +38,54 @@ $radius20px: 1.25rem;
 $space16px: 1rem;
 $space24px: 1.5rem;
 $space40px: 2.5rem;
+
+body {
+  background-color: $color-slate-300;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  box-shadow: 0 0 30px -40px $color-slate-900;
+  border-radius: $radius20px;
+  padding: $space16px $space16px $space40px $space16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: $space24px;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  row-gap: $space16px;
+  justify-content: center;
+}
+
+.cardHeaderText {
+  margin: 0;
+  color: $color-slate-500;
+
+  @include text-preset-2;
+}
+
+.cardHeaderTitle {
+  margin: 0;
+  color: $color-slate-900;
+
+  @include text-preset-1;
+}
+
+.cardImage {
+  border-radius: $radius20px;
+  height: 288px;
+  width: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
