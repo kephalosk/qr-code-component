@@ -7,10 +7,6 @@
   }
 }
 
-* {
-  box-sizing: border-box;
-}
-
 @mixin text-preset-1 {
   font-family: Outfit, sans-serif;
   font-weight: 700;
@@ -41,6 +37,10 @@ $space40px: 2.5rem;
 
 $card-content-width: 18rem;
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   background-color: $color-slate-300;
@@ -49,6 +49,17 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 .card {

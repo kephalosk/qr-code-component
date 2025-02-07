@@ -19,6 +19,18 @@ body {
   align-items: center;
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 2;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 .card {
   box-shadow: 0 0 30px -40px #1F314F;
   border-radius: 1.25rem;
