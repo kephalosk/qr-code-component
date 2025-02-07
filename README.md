@@ -5,25 +5,25 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [Built with](#built-with)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
-![Desktop](./screenshots/desktop.png)
+Desktop
 
-![Mobile](./screenshots/desktop.png)
+![Desktop](ressources/screenshots/desktop.png)
+
+Mobile
+
+![Mobile](ressources/screenshots/mobile.png)
 
 ### Links
 
@@ -37,7 +37,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - create scss classes
 - add html structure
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - SCSS custom properties
